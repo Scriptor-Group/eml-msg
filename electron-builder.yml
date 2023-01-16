@@ -1,0 +1,12 @@
+appId: scriptor.artis.app
+productName: EML Convertor (Scriptor Artis)
+copyright: Copyright © 2023 Scriptor Artis
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null
